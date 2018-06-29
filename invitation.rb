@@ -15,8 +15,7 @@ puts "host_name?"
 host_name = gets.chomp.capitalize
 
 
-puts
-"Dear #{guest_name},
+puts "Dear #{guest_name},
 
 You are cordially invited to the #{party_name} on #{date} at #{time}. Please RSVP no later than two weeks before #{date}.
 
