@@ -53,7 +53,7 @@ describe 'invitation.rb prompts the user for the right information' do
     expect(self).to receive(:gets).and_return("Harry Potter").at_least(:once)
     host_name = get_variable_from_file("./invitation.rb", "host_name")
 
-    expect(host_name).to eq("Harry Potter")
+    expect(host_name).to eq("Harry potter")
   end
 end
 
