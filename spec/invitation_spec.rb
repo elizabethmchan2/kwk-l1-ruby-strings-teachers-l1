@@ -26,7 +26,7 @@ describe 'invitation.rb prompts the user for the right information' do
     expect(self).to receive(:gets).and_return("Best Halloween Party Ever").at_least(:once)
     party_name = get_variable_from_file("./invitation.rb", "party_name")
 
-    expect(party_name).to eq("Best Halloween Party Ever")
+    expect(party_name).to eq("Best halloween party ever")
   end
 
   it 'captures the user input and sets it equal to a variable called date' do
