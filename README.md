@@ -7,7 +7,7 @@ Your friend Harry Potter was very impressed with the invitations that you create
 
 
 
-time
+
 host_name
 
 puts "guest_name?"
@@ -18,6 +18,7 @@ puts "date?"
 date = gets.chomp.capitalize
 puts "time?"
 time = gets.chomp
+puts "host_name?"
 host_name = gets.chomp.capitalize
 
 
