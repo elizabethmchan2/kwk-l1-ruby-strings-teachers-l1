@@ -5,8 +5,8 @@
 Your friend Harry Potter was very impressed with the invitations that you created for Ron Weasley's graduation party. Harry suggests that the two of you start an invitation printing business together. He wants you to create a program that prompts customers for the following party details...
 
 
-party_name
-date
+
+
 time
 host_name
 
@@ -14,7 +14,9 @@ puts "guest_name?"
 guest_name = gets.chomp.capitalize
 puts "party_name?"
 party_name = gets.chomp.capitalize
+puts "date?"
 date = gets.chomp.capitalize
+puts "time?"
 time = gets.chomp
 host_name = gets.chomp.capitalize
 
