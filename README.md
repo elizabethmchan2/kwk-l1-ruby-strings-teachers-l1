@@ -8,7 +8,6 @@ Your friend Harry Potter was very impressed with the invitations that you create
 
 
 
-host_name
 
 puts "guest_name?"
 guest_name = gets.chomp.capitalize
