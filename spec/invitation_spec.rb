@@ -66,7 +66,7 @@ describe 'invitation.rb generates a complete invitation, interpolating the provi
       output = capture_puts{ run_file("invitation.rb") }
 
       expect(output).to include("Hermoine")
-      expect(output).to include("Best Halloween Party Ever ")
+      expect(output).to include("Best halloween party ever ")
       expect(output).to include("October 31 ")
       expect(output).to include("6pm")
       expect(output).to include("Harry Potter")
