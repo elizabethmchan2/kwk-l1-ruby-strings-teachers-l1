@@ -26,7 +26,7 @@ describe 'invitation.rb prompts the user for the right information' do
     expect(self).to receive(:gets).and_return("Best Halloween Party Ever").at_least(:once)
     party_name = get_variable_from_file("./invitation.rb", "party_name")
 
-    expect(party_name).to eq("Best Halloween Party Ever")
+    expect(party_name).to eq("Best halloween party ever")
   end
 
   it 'captures the user input and sets it equal to a variable called date' do
@@ -53,7 +53,7 @@ describe 'invitation.rb prompts the user for the right information' do
     expect(self).to receive(:gets).and_return("Harry Potter").at_least(:once)
     host_name = get_variable_from_file("./invitation.rb", "host_name")
 
-    expect(host_name).to eq("Harry Potter")
+    expect(host_name).to eq("Harry potter")
   end
 end
 
@@ -66,9 +66,9 @@ describe 'invitation.rb generates a complete invitation, interpolating the provi
       output = capture_puts{ run_file("invitation.rb") }
 
       expect(output).to include("Hermoine")
-      expect(output).to include("Best Halloween Party Ever ")
+      expect(output).to include("Best halloween party ever ")
       expect(output).to include("October 31 ")
       expect(output).to include("6pm")
-      expect(output).to include("Harry Potter")
+      expect(output).to include("Harry potter")
     end
 end
