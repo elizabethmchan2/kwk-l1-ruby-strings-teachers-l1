@@ -69,6 +69,6 @@ describe 'invitation.rb generates a complete invitation, interpolating the provi
       expect(output).to include("Best halloween party ever ")
       expect(output).to include("October 31 ")
       expect(output).to include("6pm")
-      expect(output).to include("Harry Potter")
+      expect(output).to include("Harry potter")
     end
 end
